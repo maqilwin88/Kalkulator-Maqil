@@ -76,7 +76,6 @@ public class Kalkuklator extends javax.swing.JFrame {
 
         Tampilan.addActionListener(this::TampilanActionPerformed);
 
-        btnClear.setBackground(new java.awt.Color(255, 51, 255));
         btnClear.setText("C");
         btnClear.addActionListener(this::btnClearActionPerformed);
 
@@ -113,18 +112,22 @@ public class Kalkuklator extends javax.swing.JFrame {
         btnHasil.setText("=");
         btnHasil.addActionListener(this::btnHasilActionPerformed);
 
+        angka0.setBackground(new java.awt.Color(255, 0, 0));
         angka0.setText("0");
         angka0.addActionListener(this::angka0ActionPerformed);
 
         btnKurang.setText("-");
         btnKurang.addActionListener(this::btnKurangActionPerformed);
 
+        angka3.setBackground(new java.awt.Color(102, 255, 102));
         angka3.setText("3");
         angka3.addActionListener(this::angka3ActionPerformed);
 
+        angka1.setBackground(new java.awt.Color(255, 153, 51));
         angka1.setText("1");
         angka1.addActionListener(this::angka1ActionPerformed);
 
+        angka2.setBackground(new java.awt.Color(255, 255, 51));
         angka2.setText("2");
         angka2.addActionListener(this::angka2ActionPerformed);
 
